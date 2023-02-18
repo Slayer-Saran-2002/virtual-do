@@ -35,24 +35,36 @@
     background: white;
     
   }
-  .active {
-    display: block;
-  }
-
+  
   @media all and (max-width: 480px){
     .navbar {
         flex-direction: column;
+        padding:5px 5px;
+      }
+    .menu {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 15px;
     }
     .nav-list {
         list-style-type: none;
         width: 100%;
         text-align: center;
         padding-top: 10px;
+        display: none;
     }
-    .menu {
+    .nav-list .list-items {
         display: block;
-        position: absolute;
-        right: 10px;
-        top: 15px;
+        border-top: 1px solid white;
     }
+    .primary-icon {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .active {
+      display: block;
+    }
+  
+
   }
