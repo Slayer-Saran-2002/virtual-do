@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-color: rgb(68, 11, 181);
+
+}
+.html {
+    height: 100vh;
+}
+.container-main {
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 10%;
+    height: 50vh;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    align-items: center;
+    overflow: hidden;
+
+}
+.list-items {
+    display: flex;
+    padding: 5px;
+}
+.list-items i {
+    padding: 5px;
+    color: rgb(68, 11, 181);
+}
